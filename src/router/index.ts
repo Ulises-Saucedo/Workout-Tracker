@@ -48,6 +48,20 @@ const router = createRouter({
         requiresAuth: true,
         title: 'Mi rutina'
       }
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: () => {
+        return { name: '404' }
+      }
+    },
+    {
+      path: '/404',
+      name: '404',
+      component: () => import('../views/404View.vue'),
+      meta: {
+        title: '404'
+      }
     }
   ]
 })
