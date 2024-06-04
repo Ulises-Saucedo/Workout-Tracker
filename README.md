@@ -1,30 +1,45 @@
-## Workout Tracker
-Create .env file and complete the environment variables
-```
-VITE_SUPABASE_URL=XXXXXXXXXXXXXXXXXXX
-VITE_SUPABASE_API_KEY=XXXXXXXXXXXXXXX
-```
+# Workout Tracker 🏋️‍♀️
+
+## Description
+Workout Tracker is an application built with Supabase, allowing users to track their workouts and progress over time.
+
+## Configuration
+- Create your .env file and complete the environment variables:
+  ```shell
+    VITE_SUPABASE_URL=XXXXXXXXXXXXXXXXXXX
+    VITE_SUPABASE_API_KEY=XXXXXXXXXXXXXXX
+  ```
 
 ## Project Setup
 
-```sh
-pnpm install
-```
+1. Install dependencies:
 
-### Compile and Hot-Reload for Development
+    ```sh
+    pnpm install
+    ```
 
-```sh
-pnpm dev
-```
+## Usage
 
-### Type-Check, Compile and Minify for Production
+1. Compile and hot-reload for development:
 
-```sh
-pnpm build
-```
+    ```sh
+    pnpm dev
+    ```
 
-### Lint with [ESLint](https://eslint.org/)
+2. Open your browser and go to `http://localhost:3000` to access the application.
 
-```sh
-pnpm lint
-```
+## Building for Production
+
+1. Type-check, compile, and minify for production:
+
+    ```sh
+    pnpm build
+    ```
+
+## Additional Commands
+
+- **Linting with ESLint:** 
+
+    ```sh
+    pnpm lint
+    ```
